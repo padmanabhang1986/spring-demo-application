@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
     @GetMapping
     public String sendMessage(){
-        return "Hello World Spring Boot Program";
+        return "Hello World";
     }
 }
